@@ -43,5 +43,7 @@ print(test)
 ## Links
 
 https://yurimkoo.github.io/python/2019/09/14/connect-db-with-python.html  
+https://yurimkoo.github.io/db/2019/08/24/mysql-juso-db.html
+
 https://dev.mysql.com/doc/connector-python/en/  
 https://www.fun-coding.org/mysql_basic6.html  
