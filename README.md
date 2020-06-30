@@ -1,7 +1,8 @@
 # python  
   
 ## [Anaconda](https://www.anaconda.com/)
-[Download Anaconda](https://www.anaconda.com/products/individual)
+[Download Anaconda](https://www.anaconda.com/products/individual)  
+[How to install Anaconda on Ubuntu 16.04](https://www.anaconda.com/products/individual)
   
 ## Markdown    
   
