@@ -20,7 +20,8 @@ pip insall mysqlclinet
 django-admin start project fbvSerializer
 python .\manage.py startapp fbvApp
 ```
-## 
+
+## [Django 3 By Example - Third Edition](https://subscription.packtpub.com/book/web_development/9781838981952) 
 
 
 ## [Postman](https://www.postman.com/)
