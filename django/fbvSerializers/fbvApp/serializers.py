@@ -3,5 +3,5 @@ from fbvApp.models import Student
 
 class StudentSerializer(serializers.ModelSerializer):
     class Meta:
-        model=Student
+        model= Student
         fields=['id','name','score']

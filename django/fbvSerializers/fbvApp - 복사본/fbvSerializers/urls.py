@@ -1,4 +1,4 @@
-"""cbvSerializers URL Configuration
+"""fbvSerializers URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.2/topics/http/urls/
@@ -14,22 +14,11 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path,include
-from cbvApp import views
-from rest_framework.routers import DefaultRouter
+from django.urls import path
+from fbvApp import views
 
-router = DefaultRouter()
-router.register('students',views.StudentViewSet)
-
-urlpatterns = [
-    path('', include(router.urls)),
-]
-
-"""
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('students/',views.StudentList.as_view()),
-    path('students/<int:pk>',views.StudentDetail.as_view())
-
+    path('students/',views.student_list),
+    path('students/<int:pk>',views.student_detail)
 ]
-"""

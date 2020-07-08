@@ -1,4 +1,4 @@
-"""cbvSerializers URL Configuration
+"""flightServices URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.2/topics/http/urls/
@@ -15,21 +15,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
-from cbvApp import views
+from flightApp import views
 from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()
-router.register('students',views.StudentViewSet)
-
-urlpatterns = [
-    path('', include(router.urls)),
-]
-
-"""
+router.register('flights',views.FlightViewSet)
+router.register('passengers',views.PassengerViewSet)
+router.register('reservations',views.ReservationViewSet)
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('students/',views.StudentList.as_view()),
-    path('students/<int:pk>',views.StudentDetail.as_view())
-
+    path('flightServices/',include(router.urls))
 ]
-"""
