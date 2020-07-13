@@ -1,0 +1,9 @@
+.idea
+*.pyc
+*.un~
+__pycache__
+.ipynb_checkpoints
+*.pickle
+*.info
+*.ipynb_checkpoints
+*.ini
