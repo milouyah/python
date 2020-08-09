@@ -6,6 +6,40 @@
 
 ### [Quick Start](https://www.django-rest-framework.org/tutorial/quickstart/)
 
+### [Serializer fields](https://www.django-rest-framework.org/api-guide/fields/)
+* BooleanField
+* NullBooleanField
+  
+* CharField
+* EmailField
+* RegexField
+* SlugField
+* URLField
+* UUIDField
+* FilePathField
+* IPAddressField
+
+* IntegerField
+* FloatField
+
+* DateTimeField
+* DateField
+* TimeField
+* DurationField
+
+* ChoiceField
+* MultipleChoiceField 
+
+* FileField
+* ImageField
+
+* ListField
+* DictField
+* HStoreField
+* JSONField
+
+...
+
 ### [ViewSets](https://www.django-rest-framework.org/api-guide/viewsets/)
 
 **Routers**  
